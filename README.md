@@ -21,6 +21,9 @@ dst1 = gstreamer를 이용해 네트워크로 전송하는 명령어 저장(203.
 
 VideoWriter 생성자에 gstreamer 명령어 전달
 
+https://github.com/lsy0727/jetson_camera/blob/2338bf6e75a9c14606d14af97b45dec8bcaf5da0/main.cpp#L38
+
+시간을 출력하기 위해 OPENCV의 TickMeter 클래스를 불러옴.
 
 https://github.com/lsy0727/jetson_camera/blob/740bbb4227c980ab7084056864f26b1e960a76b5/main.cpp#L40-L52
 
