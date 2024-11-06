@@ -14,6 +14,8 @@ https://github.com/lsy0727/jetson_camera/blob/8df56a53cf3aae188d292274047f3c2a0b
 
 dst = gstreamer를 이용해 네트워크로 전송하는 명령어 저장
 
+-> 호스트의 주소와 포트번호를 기입함.
+
 VideoWriter 생성자에 gstreamer 명령어 전달
 
 
