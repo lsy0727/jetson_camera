@@ -32,7 +32,7 @@ int main()
         h264parse ! rtph264pay pt=96 ! \
         udpsink host=203.234.58.164 port=8003 sync=false";
     VideoWriter writer3(dst3, 0, (double)30, Size(640, 360), false);
-    if (!writer2.isOpened()) { cerr << "Writer open failed!" << endl; return -1;}
+    if (!writer3.isOpened()) { cerr << "Writer open failed!" << endl; return -1;}
     
 
     cv::TickMeter tm;
